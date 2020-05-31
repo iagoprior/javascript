@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta nome="viewport" content="width=devide-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Processamento único</title>
+    </head>
+    <body>
+        <img src="img/images.jpeg" alt="hunter gif">
+        <button id="btn-js" >Click me</button>
+        <h2 id="hello">
+
+        </h2>
+        <script>
+            const $button = document.getElementById("btn-js");
+            const $hello = document.getElementById("hello");
+
+            $button.addEventListener("click", e => {
+                e.preventDefault();
+
+                $hello.innerHTML += "Fui clicado <br/>";
+            })
+
+            setTimeout(() => {
+                for(let i=0; i<1000; i++){
+                    console.log("I am Hunter")
+                }
+            }, 1)
+        </script>
+    </body>
+</html>
