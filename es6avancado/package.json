@@ -1,0 +1,18 @@
+{
+  "name": "es6avancado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "async.js",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
